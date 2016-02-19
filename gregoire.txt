@@ -1,0 +1,14 @@
+Hello et merci pour votre CDC,
+
+d'abord je dois vous dire que c'est pas mal du tout, ca fait plaisir.
+
+Ensuite, quelques commentaires en vrac :
+tout ce qui est mécanique est hors module, je vois que vous maîtrisez la CAO mais faites hyper gaffe ça va vous bouffer votre temps
+tout le code RPi et ce qui est branché sur la RPi (hors votre PCB) est hors module
+sur vos 2 propositions, je ferais un mix : se laisser la possibilité de faire quasiment tout sur le PIC et fallback sur la RPi si ça marche pas. Le seul truc qu'il faut pas prévoir sur le PIC c'est la capture vidéo et l'output audio.
+Pourquoi autant de LEDs ? les composants c'est galère à souder...
+il me manque votre explication sur le mécanisme de tracking, j'ai l'impression que vous repoussez la question du "comment on va le faire" parce que vous savez pas bien
+il me manque vos documentations techniques sur les protocoles à utiliser (comment piloter les servomoteurs notamment) et les exemples d’implémentation
+dernière chose : synthétisez moi ca dans un seul document reprenant la structure demandée
+
+A Mardi !
